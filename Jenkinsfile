@@ -7,7 +7,7 @@ pipeline {
             input {
               message 'Enter the data'
               parameters {
-                    string(name:'AUTHOR', defaultValue: 'Sergio', description: 'Author of the web application deployment ')
+                    string(name:'AUTHOR', defaultValue: 'Eric Garcia', description: 'Author of the web application deployment ')
                     string(name:'ENVIRONMENT', defaultValue: 'Development',description: 'Environment to deploy')
                  }
             }
